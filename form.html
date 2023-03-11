@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>A simple form</title>
+</head>
+<body>
+    
+    <h1>A Simple Form</h1>
+   <form action="*" id="myform" on submit="return handle_form_submission()">
+
+        <label for="name">Name</label>
+        <input class="no-outline" type="text" name="name" id="name" placeholder="Enter your name" required><br>
+
+        <label for="email">Email</label>
+        <input  class="no-outline" type="email" name="email" id="email" placeholder="Enter your email" required>
+
+        <label for="number">Phone number</label>
+        <input  class="no-outline" type="number" name="number" id="number" placeholder="Enter phone number" required><br>
+
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="sex" id="female">
+
+        <label for="password">Password</label>
+        <input  class="no-outline" type="password" name="password" id="password" placeholder="Enter your password" required><br>
+
+        <button class="sub-button" onclick="alert(successful)">Submit</button>
+
+        <script src="js/script.js"></script>
+
+        <script>
+            alert("your message is sent successfully");
+        </script>   
+  </form>       
+
+
+    
+       
+
+
+        
+    
+
+        
+    
+
+    
+
+
+
+   
+
+
+
+
+
+    <!-- Create a simple form with the following features 1. Takes in Name, Email address, Phone number, Gender and Password 2. A SUBMIT button. 3. On submit must highlight the empty block. 4. Error message when entering the wrong format of email ID. 5. Display a success message on successful submission -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

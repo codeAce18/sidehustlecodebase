@@ -1,0 +1,81 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+
+h1 {
+    text-align: center;
+    color: #474749;
+
+    
+}
+
+form {
+    margin: 20px;
+}
+
+form p {
+   letter-spacing: 0.1em;
+}
+
+label[for = "male"] , label[for = "female"] {
+
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+input[type="text"] {
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="email"] {
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 300px;
+}
+
+label[for = "number"] {
+    margin-left: 20px;
+}
+
+label[for = "password"] {
+    margin-left: 225px;
+}
+
+
+label[for = "female"] {
+    margin-left: 30px;
+}
+
+input[type = "number"] {
+    padding: 10px;
+    width: 300px;
+}
+
+input[type = "password"] {
+    padding: 10px;
+    width: 300px;
+}
+
+.no-outline:focus {
+    outline: none;
+}
+
+.sub-button {
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 141, 79);
+    color: white;
+}
+
+
